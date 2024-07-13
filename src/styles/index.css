@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+    font-family: "Space Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 10px;
+
+    background: #fffef9;
+    color: #333;
+    --app-gradient: linear-gradient(45deg, #fcea41, #f048c6);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
