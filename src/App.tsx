@@ -12,7 +12,9 @@ import "./styles/App.css";
 const App = () => {
   return (
     <div className="App">
+      {/* Navigation bar */}
       <Navbar />
+      {/* Routes for pages */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/experience" element={<Experience />} />
